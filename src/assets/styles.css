@@ -41,6 +41,10 @@
     --dark-gray-blue: hsl(224, 30%, 27%);
     /* FONT */
     --font-size: 18px;
+    --font-default: "Hanken Grotesk Default", sans-serif;
+    --font-medium: "Hanken Grotesk Medium", sans-serif;
+    --font-bold: "Hanken Grotesk Bold", sans-serif;
+    --font-extra-bold: "Hanken Grotesk Extra Bold", sans-serif;
 }
 
 * {

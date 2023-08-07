@@ -15,11 +15,12 @@ export default {
 
 <style>
 #app {
-  font-family: "Hanken Grotesk Default", Helvetica, Arial, sans-serif;
+  font-family: var(--font-default);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   min-height: 100vh;
   display: grid;
+  place-content: center;
 }
 </style>

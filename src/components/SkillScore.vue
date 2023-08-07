@@ -43,19 +43,23 @@ defineProps({
   color: var(--light-red);
   background-color: hsla(0, 100%, 67%, 0.05);
 }
+
 .skills-wrapper:nth-of-type(2) {
   color: var(--orange-yellow);
   background-color: hsl(39, 100%, 56%, 0.05);
 }
+
 .skills-wrapper:nth-of-type(3) {
   color: var(--green-teal);
   background-color: hsl(166, 100%, 37%, 0.05);
 }
+
 .skills-wrapper:nth-of-type(4) {
   color: var(--cobalt-blue);
   background-color: hsl(234, 85%, 45%, 0.05);
   margin-bottom: 1rem;
 }
+
 .skills {
   display: flex;
   align-items: center;
@@ -85,5 +89,15 @@ defineProps({
   color: rgba(0, 0, 0, 0.363);
   font-size: 11px;
   margin: 3px;
+}
+
+@media (min-width: 1440px) {
+  .skills-wrapper {
+    padding: 0.6rem;
+  }
+
+  .skills-wrapper:nth-of-type(4) {
+    margin-bottom: 1.5rem;
+  }
 }
 </style>

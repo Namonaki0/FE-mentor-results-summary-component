@@ -2,11 +2,11 @@
 
 ![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
 
-[![Netlify Status]()]()
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d548eafa-5fd6-49e6-929d-75b0b3235ce4/deploy-status)](https://app.netlify.com/sites/fementor-af-results-summary-component/deploys)
 
 ---
 
-This is a solution to the [Results summary component]().
+This is a solution to the [Results summary component](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV).
 
 ### Screenshot
 
@@ -15,20 +15,19 @@ This is a solution to the [Results summary component]().
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/Namonaki0/FE-mentor-results-summary-component](https://github.com/Namonaki0/FE-mentor-results-summary-component)
+- Live Site URL: [https://fementor-af-results-summary-component.netlify.app/](https://fementor-af-results-summary-component.netlify.app/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- SCSS custom properties
+- Vue.JS
+- CSS
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- Media Queries & Keyframes
-- Vanilla JavaScript
+- Media Queries
 
 Netlify used for deployment.
 
