@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Hanken Grotesk Default';
+    font-weight: 300;
+    src: url('~/src/assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk Medium';
+    font-weight: 500;
+    src: url('~/src/assets/fonts/static/HankenGrotesk-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk Bold';
+    font-weight: 700;
+    src: url('~/src/assets/fonts/static/HankenGrotesk-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk Extra Bold';
+    font-weight: 800;
+    src: url('~/src/assets/fonts/static/HankenGrotesk-ExtraBold.ttf') format('truetype');
+}
+
+:root {
+    /* PRIMARY */
+    --cobalt-blue: hsl(234, 85%, 45%);
+    --green-teal: hsl(166, 100%, 37%);
+    --orange-yellow: hsl(39, 100%, 56%);
+    --light-red: hsl(0, 100%, 67%);
+    /* GRADIENTS */
+    --slate-blue: hsl(252, 100%, 67%);
+    --royal-blue: hsl(241, 81%, 54%);
+    /* SCORE CIRCLE */
+    --violet-blue: hsla(256, 72%, 46%, 1);
+    --persian-blue: hsla(241, 72%, 46%, 0);
+    /* NEUTRAL */
+    --default-color: hsl(0, 0%, 100%);
+    --pale-blue: hsl(221, 100%, 96%);
+    --light-lavender: hsl(241, 100%, 89%);
+    --dark-gray-blue: hsl(224, 30%, 27%);
+    /* FONT */
+    --font-size: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
