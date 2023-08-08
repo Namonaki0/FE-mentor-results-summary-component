@@ -130,14 +130,13 @@ resultsAverage.value = scoreAverage(scoreArray);
   display: block;
   width: 100%;
   background: var(--dark-gray-blue);
+  color: var(--default-color);
   font-size: 12px;
   padding: 0.7rem 0;
   border-radius: 25px;
-  color: var(--default-color);
   cursor: pointer;
   font-weight: 700;
   letter-spacing: 0.6px;
-  transition: all 1s linear;
 }
 
 .cta-btn:hover,
@@ -145,7 +144,7 @@ resultsAverage.value = scoreAverage(scoreArray);
   background: linear-gradient(hsl(252, 78%, 64%) 2%, var(--royal-blue) 95%);
 }
 
-@media (min-width: 1440px) {
+@media (orientation: landscape), screen and (min-width: 414px) {
   .main {
     display: flex;
     max-width: 450px;
