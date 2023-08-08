@@ -144,7 +144,7 @@ resultsAverage.value = scoreAverage(scoreArray);
   background: linear-gradient(hsl(252, 78%, 64%) 2%, var(--royal-blue) 95%);
 }
 
-@media (orientation: landscape), screen and (min-width: 414px) {
+@media (orientation: landscape), screen and (min-width: 768px) {
   .main {
     display: flex;
     max-width: 450px;
